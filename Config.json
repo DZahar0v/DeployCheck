@@ -1,0 +1,15 @@
+{    
+    "directory": "./contracts/",
+    "addresses": [
+        ["AddressProvider", "0xcF64698AFF7E5f27A11dff868AF228653ba53be0", "./gearbox/contracts/core/AddressProvider.sol"],
+        ["YearnPriceFeed", "0x614f9486Ab9C7a217526c097656D2F6bD2DB631C", "./gearbox/contracts/oracles/YearnPriceFeed.sol"],
+        ["ContractsRegister", "0xA50d4E7D8946a7c90652339CDBd262c375d54D99", "./gearbox/contracts/core/ContractsRegister.sol"],
+        ["AccountFactory", "0x444cd42baeddeb707eed823f7177b9abcc779c04", "./gearbox/contracts/core/AccountFactory.sol"],
+        ["CreditAccount", "0x373a292b93ff9017d28e64154ef83b99d5c4e270", "./gearbox/contracts/credit/CreditAccount.sol"],
+        ["ACL", "0x523da3a8961e4dd4f6206dbf7e6c749f51796bb3", "./gearbox/contracts/core/ACL.sol"],
+        ["DataCompressor", "0x0050b1abd1dd2d9b01ce954e663ff3dbca9193b1", "./gearbox/contracts/core/DataCompressor.sol"],
+        ["LeverageActions", "0xe11ac30edcfb16d0fcc2540d2c8253051ac93d49", "./gearbox/contracts/credit/LeverageActions.sol"],
+        ["PriceOracle", "0x0e74a08443c5e39108520589176ac12ef65ab080", "./gearbox/contracts/oracles/PriceOracle.sol"],
+        ["WETHGateway", "0x4f952c4c5415b2609899abdc2f8f352f600d14d6", "./gearbox/contracts/core/WETHGateway.sol"]
+    ]
+}
