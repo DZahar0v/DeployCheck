@@ -1,6 +1,8 @@
 import json
 import requests
 import os
+import subprocess
+import platform
 
 HTTP = requests.session()
 
@@ -102,4 +104,7 @@ if __name__ == "__main__":
         print('Open: ' + address[0])
         etherscanCode = dir + address[0] + '.sol'
         githubCode = address[2]
-        os.system('meld ' + etherscanCode + ' ' + githubCode)
+        if (platform.system() == 'Windows'):
+            subprocess.call(['C:\\Program Files (x86)\\Meld\\meld.exe', etherscanCode, githubCode])
+        else:
+            os.system('meld ' + etherscanCode + ' ' + githubCode)
